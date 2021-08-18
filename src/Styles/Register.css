@@ -1,16 +1,15 @@
-.login {
+.register{
     width: 416px;
-    height: 391px;
+    height: 479px;
     border-radius: 10px;
-    
 }
 
-.login form {
+.register form {
     display: flex;
     flex-direction: column;
 }
 
-.login form input {
+.register form input {
     width: 350px;
     height: 50px;
     margin-left: 20px;
@@ -21,7 +20,7 @@
     padding-left: 6px;
 }
 
-.login form input::placeholder {
+.register form input::placeholder {
     font-family: avenir;
     font-style: normal;
     font-size: 18px;
@@ -29,7 +28,7 @@
     color: rgba(104, 50, 50, 0.5);
 }
 
-.loginTitle {
+.registerTitle {
     font-size: 36px;
     line-height: 49px;
     font-weight: 900;
@@ -38,7 +37,7 @@
     margin-left: 20px;
 }
 
-.login form .btn{
+.register form .btn {
     width: 361px;
     height: 50px;
     margin-top: 15px;
@@ -54,10 +53,10 @@
     border: none;
 }
 
-.login form p {
+.register form p {
     text-align: center;
 }
 
-.login form b {
+.register form b {
     cursor: pointer;
 }
