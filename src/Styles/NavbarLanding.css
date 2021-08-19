@@ -1,0 +1,81 @@
+.navbarLanding {
+    margin-top: 20px;
+    margin-bottom: 56px;
+    width: 1240px;
+    height: 80px;
+}
+
+.waysbucks {
+    margin-left: 30px;
+}
+
+.navbar-brand {
+    height: 88px;
+}
+
+.navbarBtn {
+    margin-left: 950px;
+    float: right;
+}
+
+.navbarLanding .navbarBtn button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.navbarLanding .navbarBtn button:nth-child(1) {
+    border: 2px solid #BD0707;
+    background-color: white;
+    box-sizing: border-box;
+    margin-right: 15px;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #BD0707;
+    line-height: 17px;
+    
+}
+
+.navbarLanding .navbarBtn button:nth-child(2) {
+    background-color: #BD0707;
+    color: white;
+    border: none;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.profpic {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #BD0707;
+}
+
+.profpic img {
+    width: 100%;
+    height: auto;
+}
+
+.navbarProfile {
+    margin-left: 1000px;
+    float: right;
+}
+
+.navProf {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.shopBasket {
+    margin-right: 36px;
+}

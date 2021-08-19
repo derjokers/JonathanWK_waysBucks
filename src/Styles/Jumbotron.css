@@ -1,0 +1,55 @@
+.jumbotron {
+    margin-left: 120px;
+    width: 1060px;
+    height: 500px;
+}
+
+.backgroundImage {
+    background-image: url('../assets/img/jumbotron.png');
+    background-repeat: no-repeat;
+}
+
+.jumbotronContent {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jumbotronText {
+    width: 500px;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+
+.jumbotronText h1 {
+    font-family: Freight;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 65px;
+    color: #ffffff;
+}
+
+.jumbotronText .tagline {
+    margin-top: 20px;
+    width: 505px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.jumbotronText .aboutWaysbucks, .letsorder {
+    width: 466px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+}
