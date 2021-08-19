@@ -15,8 +15,8 @@ export default function NavbarWaysBucks() {
                             alt="waysbucks" 
                         />
                     </Navbar.Brand>
-                    <NavbarNotLogged />
-                    {/* <NavbarLogged /> */}
+                    {/* <NavbarNotLogged /> */}
+                    <NavbarLogged />
             </Navbar>
     );
 }

@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import NavbarWaysBucks from './Components/NavbarWaysbucks';
-import Jumbotron from './Components/Jumbotron';
-import Products from './Components/Products';
 import Landing from './Pages/Landing';
+import MyProfile from './Components/MyProfile';
+import Transaction from './Components/Transaction';
+import Profile from './Pages/Profile';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+    <Profile />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,15 @@
+.profilePage {
+    margin-left: 196px;
+    display: flex;
+    flex-direction: row;
+}
+
+.myTransaction h1 {
+    margin-bottom: 26px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #613D2B;
+}
