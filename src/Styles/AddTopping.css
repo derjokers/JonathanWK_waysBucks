@@ -1,0 +1,40 @@
+.addTopping {
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+    margin-bottom: 30px;
+    margin-left: 33px;
+}
+
+.formTopping {
+    width: 680px;
+    margin-right: 91px;
+}
+
+.formTopping h1 {
+    margin-top: 10px;
+    margin-bottom: 72px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 22px;
+    color: #BD0707;
+}
+
+.formAdd .toppingName, .toppingPrice {
+    width: 680px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #BD0707;
+    margin-bottom: 35px;
+}
+
+.formAdd .toppingName::placeholder , .toppingPrice::placeholder, .formPhoto::placeholder {
+    font-family: avenir;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(104, 50, 50, 0.5);
+    
+}

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import AddProduct from './Pages/AddProduct';
+import AddTopping from './Pages/AddTopping';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AddProduct />
+    <AddTopping />
   </React.StrictMode>,
   document.getElementById('root')
 );
