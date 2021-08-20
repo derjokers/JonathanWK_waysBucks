@@ -1,9 +1,9 @@
 import '../Styles/Products.css';
 
-import iceCoffeePalmSugar from '../assets/img/iceCoffeePalmSugar.png';
-import iceCoffeeGreenTea from '../assets/img/iceCoffeeGreenTea.png';
-import hanamiLatte from '../assets/img/hanamiLatte.png';
-import cleponCoffee from '../assets/img/cleponCoffee.png';
+import iceCoffeePalmSugar from '../assets/img/products/iceCoffeePalmSugar.png';
+import iceCoffeeGreenTea from '../assets/img/products/iceCoffeeGreenTea.png';
+import hanamiLatte from '../assets/img/products/hanamiLatte.png';
+import cleponCoffee from '../assets/img/products/cleponCoffee.png';
 
 export default function Products() {
     return (

@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import Landing from './Pages/Landing';
-import MyProfile from './Components/MyProfile';
-import Transaction from './Components/Transaction';
-import Profile from './Pages/Profile';
+import AddProduct from './Pages/AddProduct';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Profile />
+    <AddProduct />
   </React.StrictMode>,
   document.getElementById('root')
 );
