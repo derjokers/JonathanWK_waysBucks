@@ -1,0 +1,146 @@
+.reviewOrder {
+    width: 660px;
+}
+
+.reviewOrder h3 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #BD0707;
+}
+
+.productCart {
+    margin-bottom: 29px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.productCart img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+.descProduct {
+    width: 300px;
+}
+
+.descProduct p {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.descProduct h4 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.toppingProduct b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #974A4A;
+}
+
+.toppingProduct, .toppingProduct span {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.priceDeleteProduct {
+    margin-left: 200px;
+}
+
+.priceDeleteProduct p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.priceDeleteProduct img {
+    cursor: pointer;
+    float: right;
+    margin-right: -3px;
+    width: 20px;
+    height: 20px;
+}
+
+.quantityTotal {
+    width: 320px;
+}
+
+.subTotal, .qty, .totalPrice {
+    display: flex;
+    flex-direction: row;
+}
+
+.subTotal p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.subTotal p:first-child {
+    width: 360px;
+    margin-right: 90px;
+}
+
+.qty p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.qty p:first-child {
+    width: 360px;
+    margin-right: 90px;
+}
+
+.totalPrice p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.totalPrice p:first-child {
+    width: 360px;
+    margin-right: 90px;
+}
+
+.orderTransaction {
+    display: flex;
+    flex-direction: row;
+}
+
+.orderTransaction img {
+    margin-top: 15px;
+    margin-left: 90px;
+    width: 216px;
+    height: 122px;
+}
