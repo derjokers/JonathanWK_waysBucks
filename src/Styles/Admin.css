@@ -1,0 +1,18 @@
+.adminTransaction {
+    margin-left: 90px;
+    width: 1150px;
+}
+
+.admin h2 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 22px;
+    color: #BD0707;
+    margin-bottom: 50px;
+}
+
+tr .action {
+    text-align: center;
+}
