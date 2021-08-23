@@ -24,7 +24,7 @@ function AdminProfile() {
         <Navbar.Collapse className="navbarProfile">
             <Nav className="navProf">
                 <div className="profpic">
-                    <img src={profpic} />
+                    <img src={profpic} alt="profile pic" />
                 </div>
             </Nav>
         </Navbar.Collapse>

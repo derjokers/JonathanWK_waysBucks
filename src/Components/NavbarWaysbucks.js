@@ -1,10 +1,11 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Dropdown, Nav, Navbar } from "react-bootstrap";
 
 import '../Styles/NavbarLanding.css';
 
 import waysbucks from '../assets/logos/waysbucks.png';
 import profpic from '../assets/avatar/profpic.png';
 import shopbasket from '../assets/logos/shopping-basket.svg';
+import DropdownUser from "./DropdownUser";
 
 export default function NavbarWaysBucks() {
     return (
@@ -37,9 +38,16 @@ function NavbarLogged(){
         <Navbar.Collapse className="navbarProfile">
             <Nav className="navProf">
                 <img className="shopBasket" src={shopbasket} />
-                <div className="profpic">
-                    <img src={profpic} />
-                </div>
+                <Dropdown style={{marginTop: '25px'}} > 
+                    <Dropdown.Toggle>
+                        <div className="profpic">
+                            <img src={profpic} />
+                        </div>
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                        <DropdownUser />
+                    </Dropdown.Menu>
+                </Dropdown>
             </Nav>
         </Navbar.Collapse>
 
