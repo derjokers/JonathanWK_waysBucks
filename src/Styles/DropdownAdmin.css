@@ -1,0 +1,63 @@
+.dropdownAdmin {
+    position:absolute;
+    height:210px; width:295px;
+    background-color:#FFF;
+    box-shadow:rgba(0,0,0, 0.2) 0px 1px 3px;
+    border-radius:5px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.dropdownAdmin::before {
+    position:absolute;
+    top:-10px; right:10px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    z-index:2;
+}
+
+.dropdownAdmin::after {
+    position:absolute;
+    top:-12px; right:8px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid rgba(0,0,0, 0.03);
+    z-index:1;
+}
+
+.productLogo, .toppingLogo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.productLogo p, .toppingLogo p {
+    margin-left: 10px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.productLogo img, .toppingLogo img {
+    width: 40px;
+    height: 40px;
+}
+
+.productLogo, .toppingLogo {
+    cursor: pointer;
+}
+
+.productLogo {
+    padding-top: 2px;
+}
