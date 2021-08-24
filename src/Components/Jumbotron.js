@@ -1,8 +1,7 @@
 import '../Styles/Jumbotron.css';
-
 import jumbotronImage from '../assets/img/jumbotronImage.png';
 
-export default function Jumbotron(props) {
+export default function Jumbotron() {
     return (
         <div className="jumbotron">
             <div className="backgroundImage">

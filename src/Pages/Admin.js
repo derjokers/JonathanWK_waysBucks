@@ -1,12 +1,13 @@
 import { Table, Button } from "react-bootstrap";
-import NavbarWaysBucks from "../Components/NavbarWaysbucks";
+import NavbarAdmin from "../Components/NavbarAdmin";
+
 
 import '../Styles/Admin.css'
 
 export default function Admin(props) {
     return (
         <div className="admin">
-            <NavbarWaysBucks />
+            <NavbarAdmin />
             <div className="adminTransaction">
                 <h2>Income Transaction</h2>
                 <Table className='mt-4' bordered hover>

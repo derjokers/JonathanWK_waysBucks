@@ -4,6 +4,7 @@
 	margin-right: 27px;
 }
 
+
 .blockCheck .imgTopping {
     width: 75px;
     height: 85px;
@@ -11,7 +12,7 @@
 }
 
 .cardTopping .cardBody .toppingName p{
-    margin-left: 6px;
+	text-align: center;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;

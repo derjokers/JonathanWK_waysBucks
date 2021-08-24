@@ -5,10 +5,11 @@ import './index.css';
 import DetailProduct from './Pages/DetailProduct';
 import Landing from './Pages/Landing';
 import Admin from './Pages/Admin';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Admin />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

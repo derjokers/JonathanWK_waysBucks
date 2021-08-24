@@ -7,6 +7,7 @@
 
 .waysbucks {
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .navbar-brand {
@@ -96,7 +97,7 @@
 }
 
 .navbarProfile {
-    margin-left: 1000px;
+    margin-left: 1028px;
     float: right;
 }
 
@@ -108,4 +109,5 @@
 
 .shopBasket {
     margin-right: 36px;
+    cursor: pointer;
 }

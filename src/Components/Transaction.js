@@ -1,7 +1,7 @@
 import logo from '../assets/logos/waysbucks.png';
 import qrcode from '../assets/img/qr-code.png';
 
-import iceCoffeePalmSugar from '../assets/img/iceCoffeePalmSugar.png';
+import iceCoffeePalmSugar from '../assets/img/products/iceCoffeePalmSugar.png';
 
 import '../Styles/Transaction.css';
 

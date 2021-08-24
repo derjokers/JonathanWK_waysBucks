@@ -1,7 +1,5 @@
 import '../Styles/CardTopping.css';
 
-import bubbleTeaGelation from '../assets/img/toppings/bubbleTeaGelatin.png'
-
 export default function CardTopping(props) {
     return (
         <div className="cardTopping">
@@ -9,7 +7,7 @@ export default function CardTopping(props) {
                 <label className="blockCheck">
                     <img 
                         className="imgTopping" 
-                        src={bubbleTeaGelation} 
+                        src={props.image} 
                         alt="topping"
                     />
                     <input 
@@ -19,7 +17,7 @@ export default function CardTopping(props) {
                     <span className='checkmark'></span>
                 </label>
                 <div className="toppingName">
-                    <p>Bubble Tea Gelatin</p>
+                    <p>{props.name}</p>
                 </div>
             </div>
         </div>

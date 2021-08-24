@@ -12,7 +12,7 @@
 }
 
 .productCart {
-    margin-bottom: 29px;
+    height: 100px;
     margin-left: 3px;
     display: flex;
     flex-direction: row;
@@ -25,16 +25,16 @@
     margin-right: 13px;
 }
 
-.descProduct {
+.descProductCart {
     width: 300px;
 }
 
-.descProduct p {
+.descProductCart p {
     margin-top: 20px;
     width: 300px;
 }
 
-.descProduct h4 {
+.descProductCart h4 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;

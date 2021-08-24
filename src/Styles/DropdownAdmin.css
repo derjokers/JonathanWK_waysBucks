@@ -2,10 +2,9 @@
     position:absolute;
     height:210px; width:295px;
     background-color:#FFF;
-    box-shadow:rgba(0,0,0, 0.2) 0px 1px 3px;
+    box-shadow:rgba(0,0,0, 0.2) 0px 3px 3px;
     border-radius:5px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-left: -230px;
 }
 
 .dropdownAdmin::before {

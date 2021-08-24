@@ -1,5 +1,5 @@
 import MyProfile from "../Components/MyProfile";
-import NavbarWaysBucks from "../Components/NavbarWaysbucks";
+import NavbarUser from "../Components/NavbarUser";
 import Transaction from "../Components/Transaction";
 
 import '../Styles/Profile.css'
@@ -7,7 +7,7 @@ import '../Styles/Profile.css'
 export default function Profile() {
     return (
         <div>
-            <NavbarWaysBucks />
+            <NavbarUser />
             <div className="profilePage">
                 <MyProfile />
                 <div className="myTransaction">
